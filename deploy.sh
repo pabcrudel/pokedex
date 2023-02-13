@@ -23,6 +23,6 @@ git init
 git add -A
 git commit -m "Deploy (commit: $COMMIT)"
 
-git push -f https://github.com/pabcrudel/pokedex.git main:ph-pages
+git push -f https://github.com/pabcrudel/pokedex.git main:gh-pages
 
 cd -
