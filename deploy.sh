@@ -19,7 +19,7 @@ COMMIT=$(echo $LOGSTRING | awk '{print $2}')
 # Navigate into the build output directory
 cd dist
 
-git init 
+git init
 git add -A
 git commit -m "Deploy (commit: $COMMIT)"
 
