@@ -1,6 +1,6 @@
 <template>
   <h1>Pokedex</h1>
-  <p>This will display pokemons from Gen1</p>
+  <p>This will display pokemons from Gen1!</p>
 </template>
 
 <script setup>
