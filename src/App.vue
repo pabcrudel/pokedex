@@ -1,5 +1,6 @@
 <template>
   <h1>Pokedex</h1>
+  <p>Show me that pokemons!</p>
 </template>
 
 <script setup>
