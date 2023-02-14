@@ -27,3 +27,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# GitHub Page
+https://pabcrudel.github.io/pokedex/
