@@ -26,7 +26,6 @@ git init
 git add -A
 git commit -m "Deploy (commit: $commit_hash)"
 
-
 git push -f $repo_url main:gh-pages
 
 cd ..
