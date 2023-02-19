@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# Script to automate the deploy of vue projects on github pages
+# Script to automate the deploy of SPA projects on github pages
 #
 # --------------------------------------------------------------------
 # Author: Pablo Cru
 # GitHub: https://github.com/pabcrudel
 # --------------------------------------------------------------------
 
+# A shell option that makes the script exit if any command returns a non-zero exit code.
 set -e
 
 # Save the latest commit hash as a string
