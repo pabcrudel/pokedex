@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Script to automate the deploy on github pages
+# Script to automate the deploy of vue projects on github pages
 #
 # --------------------------------------------------------------------
 # Author: Pablo Cru
