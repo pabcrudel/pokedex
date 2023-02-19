@@ -26,7 +26,7 @@ git init
 git add -A
 git commit -m "Deploy (commit: $commit_hash)"
 
-branch=git rev-parse --abbrev-ref HEAD
+branch=$(git rev-parse --abbrev-ref HEAD)
 
 git push -f $repo_url $branch:gh-pages
 
