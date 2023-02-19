@@ -24,10 +24,8 @@ cd dist
 
 git init
 git add -A
-git commit -m "Deploy (commit: $commit_hash)"
+git commit --allow-empty -m "Deploy (commit: $commit_hash)"
 
-branch=$(git rev-parse --abbrev-ref HEAD)
+branch=$(git rev-parse --abbrev-ref $(git symbolic-ref HEAD))
 
-git push -f $repo_url $branch:gh-pages
-
-cd ..
+git push -f $repo_url $branch:gh-pages -v
