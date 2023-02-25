@@ -1,6 +1,14 @@
 <template>
-  <h1>Pokedex</h1>
-  <p>This will display pokemons from Gen1!</p>
+  
+
+  <div class="cube-container">
+      <div class="cube">
+        <div class="cube-face cube-face-front">Pokedex</div>
+        <div class="cube-face cube-face-bottom"></div>
+      </div>
+    </div> 
+
+<h1>Pokedex de la primera generacion</h1>
   <div class="cross">
     <button class="material-symbols-outlined" :class="{ isPressed: ArrowUp || up }" v-html="'expand_less'" id="arrowKeyUp" @mousedown="up = true" @mouseup="up = false"/>
     <button class="material-symbols-outlined" :class="{ isPressed: ArrowLeft || left }" v-html="'chevron_left'" id="arrowKeyLeft" @mousedown="left = true" @mouseup="left = false"/>
@@ -23,8 +31,13 @@ const left = ref(false);
 
 <style scoped>
 .cross {
-  width: 0;
+  /*las primeras 5 lineas son para centrar el grid*/
+  width: 100%;
+  height: 100%;
   display: grid;
+  justify-content: center;
+  align-items: center;
+  
   grid-template-areas: 
   '... up ...'
   'left ... right'
